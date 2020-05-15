@@ -27,15 +27,6 @@ public class AutomationConfig implements WebMvcConfigurer {
 
     @Bean
     public AutomationSettings automationSettings() {
-        AutomationSettings.GitHub gitHub = AutomationSettings.GitHub.builder()
-                .url("https://vcsmgt.atpco.org/api/v3/")
-                .repo("MonitoringAndAnalysis/pidevhelper")
-                .branch("develop")
-                .apiDataMappingPath("pi-dev-helper/src/main/resources/automation/data")
-                .testDataMappingPath("pi-dev-helper/src/main/resources/automation/mappings")
-                .token("a2365a5317d2186c0ec258006a470472920c4880")
-                .build();
-
         Resource testDataMapping = new ClassPathResource("automation/mappings");
         Resource apiDataMapping = new ClassPathResource("automation/data");
         return AutomationSettings.builder()
@@ -44,7 +35,7 @@ public class AutomationConfig implements WebMvcConfigurer {
                 .apiDataMappingPath(apiDataMapping)
                 .testDataMappingCollection("testDataMapping")
                 .apiDataMappingCollection("apiDataMapping")
-                .github(gitHub)
+                .gitHubSettings(null)
                 .build();
     }
 }

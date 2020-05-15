@@ -6,6 +6,7 @@ import com.github.rkatipally.pidevhelper.model.ApiDataMapping;
 import com.github.rkatipally.pidevhelper.model.ApiDataMappingRaw;
 import com.github.rkatipally.pidevhelper.repository.ApiDataMappingRepository;
 import com.github.rkatipally.pidevhelper.settings.AutomationSettings;
+import com.github.rkatipally.pidevhelper.settings.GitHubSettings;
 import com.github.rkatipally.pidevhelper.util.AutomationUtil;
 import com.github.rkatipally.pidevhelper.util.OkHttpClientUtil;
 import lombok.AllArgsConstructor;
@@ -82,13 +83,14 @@ public class AutomationService {
         return objectMapper.writeValueAsString(apiDataMapping.getResponse());
     }
 
-    public void loadDataFromGitHub() throws IOException {
+    public void loadDataFromGitHub(GitHubSettings gitHub) throws IOException {
+        if(gitHub !=null) automationSettings.setGitHubSettings(gitHub);
         GitHub github = new GitHubBuilder()
                 .withConnector(new OkHttpConnector(OkHttpClientUtil.trustAllSslClient(new OkHttpClient())))
-                .withEndpoint(automationSettings.getGithub().getUrl())
-                .withJwtToken(automationSettings.getGithub().getToken()).build();
-        GHRepository gitHubRepository = github.getRepository(automationSettings.getGithub().getRepo());
-        List<GHContent> contents = gitHubRepository.getDirectoryContent(automationSettings.getGithub().getApiDataMappingPath());
+                .withEndpoint(automationSettings.getGitHubSettings().getUrl())
+                .withJwtToken(automationSettings.getGitHubSettings().getToken()).build();
+        GHRepository gitHubRepository = github.getRepository(automationSettings.getGitHubSettings().getRepo());
+        List<GHContent> contents = gitHubRepository.getDirectoryContent(automationSettings.getGitHubSettings().getApiDataMappingPath());
         Queue<GHContent> contentsQueue = new LinkedList<>(contents);
         List<ApiDataMappingRaw> decodedList = new ArrayList<>();
         while (!contentsQueue.isEmpty()) {

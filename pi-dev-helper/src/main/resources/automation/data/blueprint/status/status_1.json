@@ -1,0 +1,14 @@
+[
+  {
+    "name": "search",
+    "baseUrl": "/atpapps/pistrategyskipper/api/v1/common/status",
+    "combinations": [
+      {
+        "id": "1-co",
+        "urlStr": "/1-co",
+        "request": {},
+        "response": {"data":{"_id":"1-co","searchType":"SIMPLE_BY_FARE","status":"COMPLETED","domesticSubsTime":null,"internationalSubsTime":null,"totalFareCount":3,"totalRequestCount":0,"completedRequestCount":0},"message":{}}
+      }
+    ]
+  }
+]

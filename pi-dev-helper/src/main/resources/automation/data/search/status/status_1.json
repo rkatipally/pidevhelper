@@ -1,0 +1,29 @@
+[
+  {
+    "name": "search",
+    "baseUrl": "/atpapps/pistrategyskipper/api/v1/common/status",
+    "combinations": [
+      {
+        "id": "1",
+        "urlStr": "/1",
+        "request": {},
+        "response": {
+          "data": {
+            "_id": "1",
+            "searchType": "BY_FARE",
+            "status": "COMPLETED",
+            "domesticSubsTime": null,
+            "internationalSubsTime": null,
+            "totalFareCount": 3,
+            "totalRequestCount": 2,
+            "completedRequestCount": 2,
+            "errorCount": 0,
+            "hostCarrier": "AA",
+            "maxMarketLimitReached": false
+          },
+          "message": {}
+        }
+      }
+    ]
+  }
+]

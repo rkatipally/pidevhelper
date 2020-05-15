@@ -1,0 +1,112 @@
+[
+  {
+    "name": "search",
+    "baseUrl": "/atpapps/pistrategyskipper/api/v1/crud/search",
+    "combinations": [
+      {
+        "id": "1",
+        "urlStr": "",
+        "request": {
+          "yqyr": true,
+          "effectiveDate": "01MAY20",
+          "searchType": "BY_FARE",
+          "criteria": [
+            {
+              "origin": "WAS",
+              "destination": "CHA",
+              "market": "",
+              "carrier": "AA",
+              "accountCode": "",
+              "pdt": "PUB",
+              "footnote": "",
+              "fareClasses": "",
+              "passengerTypeCode": "",
+              "fareTypeCode": "",
+              "rbd": "",
+              "routing": "",
+              "seasonality": "",
+              "currency": "",
+              "minStay": "",
+              "advancedPurchase": "",
+              "seasonalityType": "",
+              "owrt": "",
+              "rule": "",
+              "itineraryTripType": "Both",
+              "marketAttributes": {}
+            }
+          ],
+          "userId": "ATP3RXK",
+          "hostCarrier": "AA"
+        },
+        "response": {
+          "data": {
+            "_id": "1",
+            "searchType": "BY_FARE",
+            "status": "PROCESSING",
+            "domesticSubsTime": null,
+            "internationalSubsTime": null,
+            "totalFareCount": 0,
+            "totalRequestCount": 50000,
+            "completedRequestCount": 0,
+            "errorCount": 0,
+            "hostCarrier": "AA",
+            "maxMarketLimitReached": false
+          },
+          "message": {}
+        }
+      },
+      {
+        "id": "2",
+        "urlStr": "",
+        "request": {
+          "yqyr": true,
+          "effectiveDate": "01MAY20",
+          "searchType": "BY_FARE",
+          "criteria": [
+            {
+              "origin": "WAS",
+              "destination": "LON",
+              "market": "",
+              "carrier": "AA",
+              "accountCode": "",
+              "pdt": "PUB",
+              "footnote": "",
+              "fareClasses": "",
+              "passengerTypeCode": "",
+              "fareTypeCode": "",
+              "rbd": "",
+              "routing": "",
+              "seasonality": "",
+              "currency": "",
+              "minStay": "",
+              "advancedPurchase": "",
+              "seasonalityType": "",
+              "owrt": "",
+              "rule": "",
+              "itineraryTripType": "Both",
+              "marketAttributes": {}
+            }
+          ],
+          "userId": "ATP3RXK",
+          "hostCarrier": "AA"
+        },
+        "response": {
+          "data": {
+            "_id": "2",
+            "searchType": null,
+            "status": "COMPLETED",
+            "domesticSubsTime": null,
+            "internationalSubsTime": null,
+            "totalFareCount": 0,
+            "totalRequestCount": 0,
+            "completedRequestCount": 0,
+            "errorCount": 0,
+            "hostCarrier": null,
+            "maxMarketLimitReached": false
+          },
+          "message": "new message"
+        }
+      }
+    ]
+  }
+]

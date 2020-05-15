@@ -1,0 +1,1574 @@
+[
+  {
+    "name": "search",
+    "baseUrl": "/atpapps/pistrategyskipper/api/v1/common/page",
+    "combinations": [
+      {
+        "id": "1",
+        "urlStr": "",
+        "request": {
+          "queryId": "1",
+          "pageSize": 50,
+          "searchType": "BY_FARE",
+          "sortModel": [],
+          "pageNo": 0
+        },
+        "response": {
+          "data": {
+            "fares": {
+              "content": [
+                {
+                  "_id": "1",
+                  "origin": "WAS",
+                  "destination": "CHA",
+                  "originCountry": "US",
+                  "destinationCountry": "US",
+                  "carrier": "AA",
+                  "market": "WASCHA",
+                  "productType": "PUB",
+                  "amount": "196.28",
+                  "amountToCompare": 196.28,
+                  "prevAmount": null,
+                  "prevAmountToCompare": 0,
+                  "amountDifference": null,
+                  "amountDifferenceToCompare": 0,
+                  "currency": "USD",
+                  "decimals": 2,
+                  "fareClass": "GCADCA",
+                  "footNote": "84",
+                  "oneWayRoundtripIndicator": "1",
+                  "tripDesc": "1-One Way",
+                  "ruleNumber": "4830",
+                  "tariffNumber": "0",
+                  "tariffNumberToCompare": 0,
+                  "effectiveDate": "05AUG19",
+                  "effectiveDateToCompare": 1564977600000,
+                  "discontinueDate": "",
+                  "discontinueDateToCompare": null,
+                  "passengerType": "GVT",
+                  "passengerTypeIndicator": null,
+                  "primeRBD": "G",
+                  "routingNumber": "306",
+                  "baseFareClass": null,
+                  "dowOutbound": "1234567",
+                  "dowInbound": "1234567",
+                  "advancePurchase": " ",
+                  "minimumStay": " ",
+                  "maximumStay": " ",
+                  "seasonalityType": " ",
+                  "cabinType": "ECONOMY",
+                  "seasonalityOutbound": null,
+                  "seasonalityInbound": null,
+                  "seasonalityStart": null,
+                  "seasonalityStop": null,
+                  "fareTypeCode": "PG",
+                  "nonRefundable": " ",
+                  "globalIndicator": " ",
+                  "fan": null,
+                  "surchargeAmount": null,
+                  "surchargeAmountToCompare": 0,
+                  "yqyrAmount": null,
+                  "yqyrAmountToCompare": 0,
+                  "oneWayAmount": "196.28",
+                  "oneWayAmountToCompare": 196.28,
+                  "roundTripAmount": "392.56",
+                  "roundTripAmountToCompare": 392.56,
+                  "basePlusYqYr": "196.28",
+                  "basePlusYqYrToCompare": 196.28,
+                  "firstTravelDate": "01OCT19",
+                  "firstTravelDateToCompare": 1569902400000,
+                  "lastTravelDate": "30SEP20",
+                  "lastTravelDateToCompare": 1601438400000,
+                  "firstSaleDate": "",
+                  "firstSaleDateToCompare": null,
+                  "lastSaleDate": "",
+                  "lastSaleDateToCompare": null,
+                  "subsDate": "11JAN20",
+                  "subsDateToCompare": 1578718800000,
+                  "subsTime": "23:59",
+                  "fanDate": null,
+                  "fanDateToCompare": null,
+                  "constructionIndicator": null,
+                  "accountCode": null,
+                  "calculationMethod": null,
+                  "actionCode": "N",
+                  "blackoutOutDates": null,
+                  "blackoutInDates": null,
+                  "fareState": "D",
+                  "yqyrTotalCharges": [
+                    {
+                      "totalAmt": "0.00",
+                      "totalAmtToCompare": 0,
+                      "totalAmountCurrency": "USD",
+                      "itinBestRank": "1",
+                      "route": null,
+                      "outBoundRoute": "DCA-DFW-CHA",
+                      "inBoundRoute": null
+                    }
+                  ],
+                  "yqyrModelDetails": null,
+                  "chargeLists": [
+                    {
+                      "totalAmt": "0.00",
+                      "inboundAmt": null,
+                      "inboundCur": null,
+                      "outboundAmt": "0.00",
+                      "outboundCur": "USD",
+                      "currency": null,
+                      "bestRank": 1,
+                      "routeForBestRank": null,
+                      "outboundRoute": "DCA-DFW-CHA",
+                      "inboundRoute": null,
+                      "itineraries": [
+                        {
+                          "routePath": null,
+                          "rank": 1,
+                          "legs": [
+                            {
+                              "origin": "DCA",
+                              "destination": "DFW",
+                              "direction": "O",
+                              "operatingFlight": "AA1052",
+                              "marketingFlights": "AA1052,AA5710",
+                              "depDateAndTime": "09MAY20, 13:00",
+                              "arrivalDateAndTime": "09MAY20, 15:25",
+                              "yqyrCharges": null
+                            },
+                            {
+                              "origin": "DFW",
+                              "destination": "CHA",
+                              "direction": "O",
+                              "operatingFlight": "AA5710",
+                              "marketingFlights": "AA1052,AA5710",
+                              "depDateAndTime": "09MAY20, 16:45",
+                              "arrivalDateAndTime": "09MAY20, 19:45",
+                              "yqyrCharges": null
+                            }
+                          ]
+                        }
+                      ],
+                      "taxSubCodeTypeDetailsRecords": [
+                        {
+                          "s1Records": [
+                            {
+                              "leg": "DCA-DFW",
+                              "record": {
+                                "amount": "0.00",
+                                "currency": "USD",
+                                "code": "YRI",
+                                "seqNo": "10200",
+                                "portionOfTravel": false
+                              }
+                            },
+                            {
+                              "leg": "DCA-DFW",
+                              "record": {
+                                "amount": "0.00",
+                                "currency": "USD",
+                                "code": "YQI",
+                                "seqNo": "11001",
+                                "portionOfTravel": false
+                              }
+                            },
+                            {
+                              "leg": "DFW-CHA",
+                              "record": {
+                                "amount": "0.00",
+                                "currency": "USD",
+                                "code": "YRI",
+                                "seqNo": "10200",
+                                "portionOfTravel": false
+                              }
+                            },
+                            {
+                              "leg": "DFW-CHA",
+                              "record": {
+                                "amount": "0.00",
+                                "currency": "USD",
+                                "code": "YQI",
+                                "seqNo": "11001",
+                                "portionOfTravel": false
+                              }
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ],
+                  "catRecord2InfoMap": {
+                    "33 - General Rule Cat_Data": [
+                      {
+                        "record2Carrier": "AA",
+                        "record2Rule": "RFND",
+                        "record2Tariff": 10,
+                        "record2SequenceNo": 4999900,
+                        "record2CatNo": 33,
+                        "fbrVandorTariff": null,
+                        "record2TariffCode": null,
+                        "effectiveDate": "18Dec14"
+                      }
+                    ],
+                    "12 - Rule Cat_Data": [
+                      {
+                        "record2Carrier": "AA",
+                        "record2Rule": "4830",
+                        "record2Tariff": 11,
+                        "record2SequenceNo": 1005000,
+                        "record2CatNo": 12,
+                        "fbrVandorTariff": null,
+                        "record2TariffCode": null,
+                        "effectiveDate": "25Jul11"
+                      }
+                    ],
+                    "9 - General Rule Cat_Data": [
+                      {
+                        "record2Carrier": "AA",
+                        "record2Rule": "0183",
+                        "record2Tariff": 10,
+                        "record2SequenceNo": 7999950,
+                        "record2CatNo": 9,
+                        "fbrVandorTariff": null,
+                        "record2TariffCode": null,
+                        "effectiveDate": "01Jul15"
+                      }
+                    ],
+                    "16 - Rule Cat_Data": [
+                      {
+                        "record2Carrier": "AA",
+                        "record2Rule": "4830",
+                        "record2Tariff": 11,
+                        "record2SequenceNo": 200000,
+                        "record2CatNo": 16,
+                        "fbrVandorTariff": null,
+                        "record2TariffCode": null,
+                        "effectiveDate": "02Jul12"
+                      }
+                    ],
+                    "19 - Rule Cat_Data": [
+                      {
+                        "record2Carrier": "AA",
+                        "record2Rule": "4830",
+                        "record2Tariff": 11,
+                        "record2SequenceNo": 900000,
+                        "record2CatNo": 19,
+                        "fbrVandorTariff": null,
+                        "record2TariffCode": null,
+                        "effectiveDate": "10Dec03"
+                      }
+                    ],
+                    "12 - General Rule Cat_Data": [
+                      {
+                        "record2Carrier": "AA",
+                        "record2Rule": "0395",
+                        "record2Tariff": 10,
+                        "record2SequenceNo": 6950000,
+                        "record2CatNo": 12,
+                        "fbrVandorTariff": null,
+                        "record2TariffCode": null,
+                        "effectiveDate": "25Jul11"
+                      }
+                    ],
+                    "50 - Rule Cat_Data": [
+                      {
+                        "record2Carrier": "AA",
+                        "record2Rule": "4830",
+                        "record2Tariff": 11,
+                        "record2SequenceNo": 80000,
+                        "record2CatNo": 50,
+                        "fbrVandorTariff": null,
+                        "record2TariffCode": null,
+                        "effectiveDate": "29Sep15"
+                      }
+                    ],
+                    "31 - General Rule Cat_Data": [
+                      {
+                        "record2Carrier": "AA",
+                        "record2Rule": "RFND",
+                        "record2Tariff": 10,
+                        "record2SequenceNo": 5000000,
+                        "record2CatNo": 31,
+                        "fbrVandorTariff": null,
+                        "record2TariffCode": null,
+                        "effectiveDate": "18Mar16"
+                      }
+                    ],
+                    "22 - General Rule Cat_Data": [
+                      {
+                        "record2Carrier": "AA",
+                        "record2Rule": "1810",
+                        "record2Tariff": 10,
+                        "record2SequenceNo": 5000000,
+                        "record2CatNo": 22,
+                        "fbrVandorTariff": null,
+                        "record2TariffCode": null,
+                        "effectiveDate": "03Feb16"
+                      }
+                    ],
+                    "15 - Rule Cat_Data": [
+                      {
+                        "record2Carrier": "AA",
+                        "record2Rule": "4830",
+                        "record2Tariff": 11,
+                        "record2SequenceNo": 9000000,
+                        "record2CatNo": 15,
+                        "fbrVandorTariff": null,
+                        "record2TariffCode": null,
+                        "effectiveDate": "29Nov18"
+                      }
+                    ],
+                    "19 - General Rule Cat_Data": [
+                      {
+                        "record2Carrier": "AA",
+                        "record2Rule": "8000",
+                        "record2Tariff": 10,
+                        "record2SequenceNo": 1000000,
+                        "record2CatNo": 19,
+                        "fbrVandorTariff": null,
+                        "record2TariffCode": null,
+                        "effectiveDate": "23Jul13"
+                      }
+                    ],
+                    "15 - General Rule Cat_Data": [
+                      {
+                        "record2Carrier": "AA",
+                        "record2Rule": "0105",
+                        "record2Tariff": 10,
+                        "record2SequenceNo": 5000000,
+                        "record2CatNo": 15,
+                        "fbrVandorTariff": null,
+                        "record2TariffCode": null,
+                        "effectiveDate": "15Sep16"
+                      }
+                    ],
+                    "5 - Rule Cat_Data": [
+                      {
+                        "record2Carrier": "AA",
+                        "record2Rule": "4830",
+                        "record2Tariff": 11,
+                        "record2SequenceNo": 8999800,
+                        "record2CatNo": 5,
+                        "fbrVandorTariff": null,
+                        "record2TariffCode": null,
+                        "effectiveDate": "12Apr17"
+                      }
+                    ],
+                    "8 - Rule Cat_Data": [
+                      {
+                        "record2Carrier": "AA",
+                        "record2Rule": "4830",
+                        "record2Tariff": 11,
+                        "record2SequenceNo": 200000,
+                        "record2CatNo": 8,
+                        "fbrVandorTariff": null,
+                        "record2TariffCode": null,
+                        "effectiveDate": "10Aug94"
+                      }
+                    ],
+                    "22 - Rule Cat_Data": [
+                      {
+                        "record2Carrier": "AA",
+                        "record2Rule": "4830",
+                        "record2Tariff": 11,
+                        "record2SequenceNo": 5000000,
+                        "record2CatNo": 22,
+                        "fbrVandorTariff": null,
+                        "record2TariffCode": null,
+                        "effectiveDate": "05Nov04"
+                      }
+                    ],
+                    "4 - Rule Cat_Data": [
+                      {
+                        "record2Carrier": "AA",
+                        "record2Rule": "4830",
+                        "record2Tariff": 11,
+                        "record2SequenceNo": 96900,
+                        "record2CatNo": 4,
+                        "fbrVandorTariff": null,
+                        "record2TariffCode": null,
+                        "effectiveDate": "11Feb16"
+                      }
+                    ],
+                    "18 - Rule Cat_Data": [
+                      {
+                        "record2Carrier": "AA",
+                        "record2Rule": "4830",
+                        "record2Tariff": 11,
+                        "record2SequenceNo": 1710000,
+                        "record2CatNo": 18,
+                        "fbrVandorTariff": null,
+                        "record2TariffCode": null,
+                        "effectiveDate": "28Aug02"
+                      }
+                    ],
+                    "33 - Rule Cat_Data": [
+                      {
+                        "record2Carrier": "AA",
+                        "record2Rule": "4830",
+                        "record2Tariff": 11,
+                        "record2SequenceNo": 4999900,
+                        "record2CatNo": 33,
+                        "fbrVandorTariff": null,
+                        "record2TariffCode": null,
+                        "effectiveDate": "18Dec14"
+                      }
+                    ],
+                    "8 - General Rule Cat_Data": [
+                      {
+                        "record2Carrier": "AA",
+                        "record2Rule": "0180",
+                        "record2Tariff": 10,
+                        "record2SequenceNo": 1004836,
+                        "record2CatNo": 8,
+                        "fbrVandorTariff": null,
+                        "record2TariffCode": null,
+                        "effectiveDate": "14Apr20"
+                      }
+                    ],
+                    "1 - Rule Cat_Data": [
+                      {
+                        "record2Carrier": "AA",
+                        "record2Rule": "4830",
+                        "record2Tariff": 11,
+                        "record2SequenceNo": 9000000,
+                        "record2CatNo": 1,
+                        "fbrVandorTariff": null,
+                        "record2TariffCode": null,
+                        "effectiveDate": "27Sep16"
+                      }
+                    ],
+                    "31 - Rule Cat_Data": [
+                      {
+                        "record2Carrier": "AA",
+                        "record2Rule": "4830",
+                        "record2Tariff": 11,
+                        "record2SequenceNo": 8999900,
+                        "record2CatNo": 31,
+                        "fbrVandorTariff": null,
+                        "record2TariffCode": null,
+                        "effectiveDate": "18Dec14"
+                      }
+                    ]
+                  },
+                  "fntRecord2InfoMap": {
+                    "14 - Footnote Cat_Data": [
+                      {
+                        "record2Carrier": null,
+                        "record2Footnote": "84",
+                        "record2Tariff": 0,
+                        "record2SequenceNo": 100000,
+                        "record2CatNo": 14,
+                        "fbrVandorTariff": null,
+                        "record2TariffCode": null,
+                        "effectiveDate": "02Aug19"
+                      }
+                    ]
+                  },
+                  "oaFare": null,
+                  "lastModule": "SCOPE",
+                  "bpRequestId": 0,
+                  "elementId": 0,
+                  "piActionCode": "",
+                  "groupId": null,
+                  "marketAttributes": null,
+                  "footNoteKey": null,
+                  "routingNumberKey": null,
+                  "currencyKey": null,
+                  "rowIndex": 0,
+                  "sortKey": "WAS-CHA-AA-GCADCA-USD-84-306-1-0-1",
+                  "previousAmount": null,
+                  "previousAmountToCompare": 0,
+                  "previousFootNote": null,
+                  "previousRoutingNumber": null,
+                  "previousCurrency": null,
+                  "constructedBaseFare": null,
+                  "inAddOn": null,
+                  "outAddOn": null,
+                  "distributedId": null,
+                  "status": null,
+                  "domestic": true
+                },
+                {
+                  "_id": "5eac78c74ed8a80c6565f318",
+                  "origin": "WAS",
+                  "destination": "CHA",
+                  "originCountry": "US",
+                  "destinationCountry": "US",
+                  "carrier": "AA",
+                  "market": "WASCHA",
+                  "productType": "PUB",
+                  "amount": "158.00",
+                  "amountToCompare": 158,
+                  "prevAmount": null,
+                  "prevAmountToCompare": 0,
+                  "amountDifference": null,
+                  "amountDifferenceToCompare": 0,
+                  "currency": "USD",
+                  "decimals": 2,
+                  "fareClass": "GVAHKSB1",
+                  "footNote": "2D",
+                  "oneWayRoundtripIndicator": "1",
+                  "tripDesc": "1-One Way",
+                  "ruleNumber": "B11H",
+                  "tariffNumber": "0",
+                  "tariffNumberToCompare": 0,
+                  "effectiveDate": "01MAY20",
+                  "effectiveDateToCompare": 1588305600000,
+                  "discontinueDate": "",
+                  "discontinueDateToCompare": null,
+                  "passengerType": "ADT",
+                  "passengerTypeIndicator": null,
+                  "primeRBD": "B",
+                  "routingNumber": "306",
+                  "baseFareClass": null,
+                  "dowOutbound": "-23----",
+                  "dowInbound": "-23----",
+                  "advancePurchase": "21",
+                  "minimumStay": " ",
+                  "maximumStay": " ",
+                  "seasonalityType": " ",
+                  "cabinType": "ECONOMY",
+                  "seasonalityOutbound": null,
+                  "seasonalityInbound": null,
+                  "seasonalityStart": null,
+                  "seasonalityStop": null,
+                  "fareTypeCode": "EOU",
+                  "nonRefundable": "NR",
+                  "globalIndicator": " ",
+                  "fan": null,
+                  "surchargeAmount": null,
+                  "surchargeAmountToCompare": 0,
+                  "yqyrAmount": null,
+                  "yqyrAmountToCompare": 0,
+                  "oneWayAmount": "158.00",
+                  "oneWayAmountToCompare": 158,
+                  "roundTripAmount": "316.00",
+                  "roundTripAmountToCompare": 316,
+                  "basePlusYqYr": "158.00",
+                  "basePlusYqYrToCompare": 158,
+                  "firstTravelDate": "",
+                  "firstTravelDateToCompare": null,
+                  "lastTravelDate": "07OCT20",
+                  "lastTravelDateToCompare": 1602043200000,
+                  "firstSaleDate": "",
+                  "firstSaleDateToCompare": null,
+                  "lastSaleDate": "05MAY20",
+                  "lastSaleDateToCompare": 1588651200000,
+                  "subsDate": "01MAY20",
+                  "subsDateToCompare": 1588305600000,
+                  "subsTime": "10:00",
+                  "fanDate": null,
+                  "fanDateToCompare": null,
+                  "constructionIndicator": null,
+                  "accountCode": null,
+                  "calculationMethod": null,
+                  "actionCode": "N",
+                  "blackoutOutDates": null,
+                  "blackoutInDates": null,
+                  "fareState": "D",
+                  "yqyrTotalCharges": [
+                    {
+                      "totalAmt": "0.00",
+                      "totalAmtToCompare": 0,
+                      "totalAmountCurrency": "USD",
+                      "itinBestRank": "1",
+                      "route": null,
+                      "outBoundRoute": "DCA-DFW-CHA",
+                      "inBoundRoute": null
+                    }
+                  ],
+                  "yqyrModelDetails": null,
+                  "chargeLists": [
+                    {
+                      "totalAmt": "0.00",
+                      "inboundAmt": null,
+                      "inboundCur": null,
+                      "outboundAmt": "0.00",
+                      "outboundCur": "USD",
+                      "currency": null,
+                      "bestRank": 1,
+                      "routeForBestRank": null,
+                      "outboundRoute": "DCA-DFW-CHA",
+                      "inboundRoute": null,
+                      "itineraries": [
+                        {
+                          "routePath": null,
+                          "rank": 1,
+                          "legs": [
+                            {
+                              "origin": "DCA",
+                              "destination": "DFW",
+                              "direction": "O",
+                              "operatingFlight": "AA1052",
+                              "marketingFlights": "AA1052,AA5710",
+                              "depDateAndTime": "09MAY20, 13:00",
+                              "arrivalDateAndTime": "09MAY20, 15:25",
+                              "yqyrCharges": null
+                            },
+                            {
+                              "origin": "DFW",
+                              "destination": "CHA",
+                              "direction": "O",
+                              "operatingFlight": "AA5710",
+                              "marketingFlights": "AA1052,AA5710",
+                              "depDateAndTime": "09MAY20, 16:45",
+                              "arrivalDateAndTime": "09MAY20, 19:45",
+                              "yqyrCharges": null
+                            }
+                          ]
+                        }
+                      ],
+                      "taxSubCodeTypeDetailsRecords": [
+                        {
+                          "s1Records": [
+                            {
+                              "leg": "DCA-DFW",
+                              "record": {
+                                "amount": "0.00",
+                                "currency": "USD",
+                                "code": "YRI",
+                                "seqNo": "10200",
+                                "portionOfTravel": false
+                              }
+                            },
+                            {
+                              "leg": "DCA-DFW",
+                              "record": {
+                                "amount": "0.00",
+                                "currency": "USD",
+                                "code": "YQI",
+                                "seqNo": "11001",
+                                "portionOfTravel": false
+                              }
+                            },
+                            {
+                              "leg": "DFW-CHA",
+                              "record": {
+                                "amount": "0.00",
+                                "currency": "USD",
+                                "code": "YRI",
+                                "seqNo": "10200",
+                                "portionOfTravel": false
+                              }
+                            },
+                            {
+                              "leg": "DFW-CHA",
+                              "record": {
+                                "amount": "0.00",
+                                "currency": "USD",
+                                "code": "YQI",
+                                "seqNo": "11001",
+                                "portionOfTravel": false
+                              }
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ],
+                  "catRecord2InfoMap": {
+                    "33 - General Rule Cat_Data": [
+                      {
+                        "record2Carrier": "AA",
+                        "record2Rule": "NCNG",
+                        "record2Tariff": 10,
+                        "record2SequenceNo": 5000000,
+                        "record2CatNo": 33,
+                        "fbrVandorTariff": null,
+                        "record2TariffCode": null,
+                        "effectiveDate": "07Dec16"
+                      }
+                    ],
+                    "12 - Rule Cat_Data": [
+                      {
+                        "record2Carrier": "AA",
+                        "record2Rule": "B11H",
+                        "record2Tariff": 11,
+                        "record2SequenceNo": 5003600,
+                        "record2CatNo": 12,
+                        "fbrVandorTariff": null,
+                        "record2TariffCode": null,
+                        "effectiveDate": "03May18"
+                      }
+                    ],
+                    "9 - General Rule Cat_Data": [
+                      {
+                        "record2Carrier": "AA",
+                        "record2Rule": "0183",
+                        "record2Tariff": 10,
+                        "record2SequenceNo": 7999950,
+                        "record2CatNo": 9,
+                        "fbrVandorTariff": null,
+                        "record2TariffCode": null,
+                        "effectiveDate": "01Jul15"
+                      }
+                    ],
+                    "50 - Rule Cat_Data": [
+                      {
+                        "record2Carrier": "AA",
+                        "record2Rule": "B11H",
+                        "record2Tariff": 11,
+                        "record2SequenceNo": 5000000,
+                        "record2CatNo": 50,
+                        "fbrVandorTariff": null,
+                        "record2TariffCode": null,
+                        "effectiveDate": "26Jul18"
+                      }
+                    ],
+                    "15 - Rule Cat_Data": [
+                      {
+                        "record2Carrier": "AA",
+                        "record2Rule": "B11H",
+                        "record2Tariff": 11,
+                        "record2SequenceNo": 4999500,
+                        "record2CatNo": 15,
+                        "fbrVandorTariff": null,
+                        "record2TariffCode": null,
+                        "effectiveDate": "26Aug19"
+                      }
+                    ],
+                    "5 - Rule Cat_Data": [
+                      {
+                        "record2Carrier": "AA",
+                        "record2Rule": "B11H",
+                        "record2Tariff": 11,
+                        "record2SequenceNo": 5030000,
+                        "record2CatNo": 5,
+                        "fbrVandorTariff": null,
+                        "record2TariffCode": null,
+                        "effectiveDate": "07Jul16"
+                      }
+                    ],
+                    "2 - Rule Cat_Data": [
+                      {
+                        "record2Carrier": "AA",
+                        "record2Rule": "B11H",
+                        "record2Tariff": 11,
+                        "record2SequenceNo": 5090000,
+                        "record2CatNo": 2,
+                        "fbrVandorTariff": null,
+                        "record2TariffCode": null,
+                        "effectiveDate": "07Jul16"
+                      }
+                    ],
+                    "8 - Rule Cat_Data": [
+                      {
+                        "record2Carrier": "AA",
+                        "record2Rule": "B11H",
+                        "record2Tariff": 11,
+                        "record2SequenceNo": 5000000,
+                        "record2CatNo": 8,
+                        "fbrVandorTariff": null,
+                        "record2TariffCode": null,
+                        "effectiveDate": "07Jul16"
+                      }
+                    ],
+                    "33 - Rule Cat_Data": [
+                      {
+                        "record2Carrier": "AA",
+                        "record2Rule": "B11H",
+                        "record2Tariff": 11,
+                        "record2SequenceNo": 5005000,
+                        "record2CatNo": 33,
+                        "fbrVandorTariff": null,
+                        "record2TariffCode": null,
+                        "effectiveDate": "07Jul16"
+                      }
+                    ],
+                    "8 - General Rule Cat_Data": [
+                      {
+                        "record2Carrier": "AA",
+                        "record2Rule": "0180",
+                        "record2Tariff": 10,
+                        "record2SequenceNo": 1004836,
+                        "record2CatNo": 8,
+                        "fbrVandorTariff": null,
+                        "record2TariffCode": null,
+                        "effectiveDate": "14Apr20"
+                      }
+                    ],
+                    "11 - Rule Cat_Data": [
+                      {
+                        "record2Carrier": "AA",
+                        "record2Rule": "B11H",
+                        "record2Tariff": 11,
+                        "record2SequenceNo": 5005000,
+                        "record2CatNo": 11,
+                        "fbrVandorTariff": null,
+                        "record2TariffCode": null,
+                        "effectiveDate": "07Jul16"
+                      }
+                    ],
+                    "18 - General Rule Cat_Data": [
+                      {
+                        "record2Carrier": "AA",
+                        "record2Rule": "NCNG",
+                        "record2Tariff": 10,
+                        "record2SequenceNo": 5000000,
+                        "record2CatNo": 18,
+                        "fbrVandorTariff": null,
+                        "record2TariffCode": null,
+                        "effectiveDate": "06May19"
+                      }
+                    ],
+                    "16 - Rule Cat_Data": [
+                      {
+                        "record2Carrier": "AA",
+                        "record2Rule": "B11H",
+                        "record2Tariff": 11,
+                        "record2SequenceNo": 5004900,
+                        "record2CatNo": 16,
+                        "fbrVandorTariff": null,
+                        "record2TariffCode": null,
+                        "effectiveDate": "01Mar20"
+                      }
+                    ],
+                    "6 - Rule Cat_Data": [
+                      {
+                        "record2Carrier": "AA",
+                        "record2Rule": "B11H",
+                        "record2Tariff": 11,
+                        "record2SequenceNo": 5000000,
+                        "record2CatNo": 6,
+                        "fbrVandorTariff": null,
+                        "record2TariffCode": null,
+                        "effectiveDate": "07Jul16"
+                      }
+                    ],
+                    "12 - General Rule Cat_Data": [
+                      {
+                        "record2Carrier": "AA",
+                        "record2Rule": "0395",
+                        "record2Tariff": 10,
+                        "record2SequenceNo": 4999600,
+                        "record2CatNo": 12,
+                        "fbrVandorTariff": null,
+                        "record2TariffCode": null,
+                        "effectiveDate": "03Oct18"
+                      }
+                    ],
+                    "31 - General Rule Cat_Data": [
+                      {
+                        "record2Carrier": "AA",
+                        "record2Rule": "WVER",
+                        "record2Tariff": 10,
+                        "record2SequenceNo": 5001668,
+                        "record2CatNo": 31,
+                        "fbrVandorTariff": null,
+                        "record2TariffCode": null,
+                        "effectiveDate": "06Mar20"
+                      }
+                    ],
+                    "22 - General Rule Cat_Data": [
+                      {
+                        "record2Carrier": "AA",
+                        "record2Rule": "1810",
+                        "record2Tariff": 10,
+                        "record2SequenceNo": 5000000,
+                        "record2CatNo": 22,
+                        "fbrVandorTariff": null,
+                        "record2TariffCode": null,
+                        "effectiveDate": "03Feb16"
+                      }
+                    ],
+                    "19 - General Rule Cat_Data": [
+                      {
+                        "record2Carrier": "AA",
+                        "record2Rule": "8000",
+                        "record2Tariff": 10,
+                        "record2SequenceNo": 1000000,
+                        "record2CatNo": 19,
+                        "fbrVandorTariff": null,
+                        "record2TariffCode": null,
+                        "effectiveDate": "23Jul13"
+                      }
+                    ],
+                    "15 - General Rule Cat_Data": [
+                      {
+                        "record2Carrier": "AA",
+                        "record2Rule": "BC15",
+                        "record2Tariff": 10,
+                        "record2SequenceNo": 5004857,
+                        "record2CatNo": 15,
+                        "fbrVandorTariff": null,
+                        "record2TariffCode": null,
+                        "effectiveDate": "10Mar20"
+                      }
+                    ],
+                    "7 - Rule Cat_Data": [
+                      {
+                        "record2Carrier": "AA",
+                        "record2Rule": "B11H",
+                        "record2Tariff": 11,
+                        "record2SequenceNo": 5000000,
+                        "record2CatNo": 7,
+                        "fbrVandorTariff": null,
+                        "record2TariffCode": null,
+                        "effectiveDate": "07Jul16"
+                      }
+                    ],
+                    "22 - Rule Cat_Data": [
+                      {
+                        "record2Carrier": "AA",
+                        "record2Rule": "B11H",
+                        "record2Tariff": 11,
+                        "record2SequenceNo": 5000000,
+                        "record2CatNo": 22,
+                        "fbrVandorTariff": null,
+                        "record2TariffCode": null,
+                        "effectiveDate": "15Dec16"
+                      }
+                    ],
+                    "4 - Rule Cat_Data": [
+                      {
+                        "record2Carrier": "AA",
+                        "record2Rule": "B11H",
+                        "record2Tariff": 11,
+                        "record2SequenceNo": 5030000,
+                        "record2CatNo": 4,
+                        "fbrVandorTariff": null,
+                        "record2TariffCode": null,
+                        "effectiveDate": "07Jul16"
+                      }
+                    ],
+                    "18 - Rule Cat_Data": [
+                      {
+                        "record2Carrier": "AA",
+                        "record2Rule": "B11H",
+                        "record2Tariff": 11,
+                        "record2SequenceNo": 5020000,
+                        "record2CatNo": 18,
+                        "fbrVandorTariff": null,
+                        "record2TariffCode": null,
+                        "effectiveDate": "07Jul16"
+                      }
+                    ],
+                    "31 - Rule Cat_Data": [
+                      {
+                        "record2Carrier": "AA",
+                        "record2Rule": "B11H",
+                        "record2Tariff": 11,
+                        "record2SequenceNo": 5004900,
+                        "record2CatNo": 31,
+                        "fbrVandorTariff": null,
+                        "record2TariffCode": null,
+                        "effectiveDate": "01Mar20"
+                      }
+                    ],
+                    "16 - General Rule Cat_Data": [
+                      {
+                        "record2Carrier": "AA",
+                        "record2Rule": "WVER",
+                        "record2Tariff": 10,
+                        "record2SequenceNo": 4999900,
+                        "record2CatNo": 16,
+                        "fbrVandorTariff": null,
+                        "record2TariffCode": null,
+                        "effectiveDate": "07Apr20"
+                      }
+                    ]
+                  },
+                  "fntRecord2InfoMap": {
+                    "15 - Footnote Cat_Data": [
+                      {
+                        "record2Carrier": null,
+                        "record2Footnote": "2D",
+                        "record2Tariff": 0,
+                        "record2SequenceNo": 100000,
+                        "record2CatNo": 15,
+                        "fbrVandorTariff": null,
+                        "record2TariffCode": null,
+                        "effectiveDate": "30Apr20"
+                      }
+                    ],
+                    "14 - Footnote Cat_Data": [
+                      {
+                        "record2Carrier": null,
+                        "record2Footnote": "2D",
+                        "record2Tariff": 0,
+                        "record2SequenceNo": 100000,
+                        "record2CatNo": 14,
+                        "fbrVandorTariff": null,
+                        "record2TariffCode": null,
+                        "effectiveDate": "30Apr20"
+                      }
+                    ]
+                  },
+                  "oaFare": null,
+                  "lastModule": "SCOPE",
+                  "bpRequestId": 0,
+                  "elementId": 0,
+                  "piActionCode": "",
+                  "groupId": null,
+                  "marketAttributes": null,
+                  "footNoteKey": null,
+                  "routingNumberKey": null,
+                  "currencyKey": null,
+                  "rowIndex": 0,
+                  "sortKey": "WAS-CHA-AA-GVAHKSB1-USD-2D-306-1-0-1",
+                  "previousAmount": null,
+                  "previousAmountToCompare": 0,
+                  "previousFootNote": null,
+                  "previousRoutingNumber": null,
+                  "previousCurrency": null,
+                  "constructedBaseFare": null,
+                  "inAddOn": null,
+                  "outAddOn": null,
+                  "distributedId": null,
+                  "status": null,
+                  "domestic": true
+                },
+                {
+                  "_id": "5eac78c74ed8a80c6565f319",
+                  "origin": "WAS",
+                  "destination": "CHA",
+                  "originCountry": "US",
+                  "destinationCountry": "US",
+                  "carrier": "AA",
+                  "market": "WASCHA",
+                  "productType": "PUB",
+                  "amount": "332.00",
+                  "amountToCompare": 332,
+                  "prevAmount": null,
+                  "prevAmountToCompare": 0,
+                  "amountDifference": null,
+                  "amountDifferenceToCompare": 0,
+                  "currency": "USD",
+                  "decimals": 2,
+                  "fareClass": "GVAHKSI1",
+                  "footNote": "2D",
+                  "oneWayRoundtripIndicator": "1",
+                  "tripDesc": "1-One Way",
+                  "ruleNumber": "J11H",
+                  "tariffNumber": "0",
+                  "tariffNumberToCompare": 0,
+                  "effectiveDate": "01MAY20",
+                  "effectiveDateToCompare": 1588305600000,
+                  "discontinueDate": "",
+                  "discontinueDateToCompare": null,
+                  "passengerType": "ADT",
+                  "passengerTypeIndicator": null,
+                  "primeRBD": "I",
+                  "routingNumber": "306",
+                  "baseFareClass": null,
+                  "dowOutbound": "-23----",
+                  "dowInbound": "-23----",
+                  "advancePurchase": "21",
+                  "minimumStay": " ",
+                  "maximumStay": " ",
+                  "seasonalityType": " ",
+                  "cabinType": "FIRST",
+                  "seasonalityOutbound": null,
+                  "seasonalityInbound": null,
+                  "seasonalityStart": null,
+                  "seasonalityStop": null,
+                  "fareTypeCode": "FON",
+                  "nonRefundable": "NR",
+                  "globalIndicator": " ",
+                  "fan": null,
+                  "surchargeAmount": null,
+                  "surchargeAmountToCompare": 0,
+                  "yqyrAmount": null,
+                  "yqyrAmountToCompare": 0,
+                  "oneWayAmount": "332.00",
+                  "oneWayAmountToCompare": 332,
+                  "roundTripAmount": "664.00",
+                  "roundTripAmountToCompare": 664,
+                  "basePlusYqYr": "332.00",
+                  "basePlusYqYrToCompare": 332,
+                  "firstTravelDate": "",
+                  "firstTravelDateToCompare": null,
+                  "lastTravelDate": "07OCT20",
+                  "lastTravelDateToCompare": 1602043200000,
+                  "firstSaleDate": "",
+                  "firstSaleDateToCompare": null,
+                  "lastSaleDate": "05MAY20",
+                  "lastSaleDateToCompare": 1588651200000,
+                  "subsDate": "01MAY20",
+                  "subsDateToCompare": 1588305600000,
+                  "subsTime": "10:00",
+                  "fanDate": null,
+                  "fanDateToCompare": null,
+                  "constructionIndicator": null,
+                  "accountCode": null,
+                  "calculationMethod": null,
+                  "actionCode": "N",
+                  "blackoutOutDates": null,
+                  "blackoutInDates": null,
+                  "fareState": "D",
+                  "yqyrTotalCharges": [
+                    {
+                      "totalAmt": "0.00",
+                      "totalAmtToCompare": 0,
+                      "totalAmountCurrency": "USD",
+                      "itinBestRank": "1",
+                      "route": null,
+                      "outBoundRoute": "DCA-DFW-CHA",
+                      "inBoundRoute": null
+                    }
+                  ],
+                  "yqyrModelDetails": null,
+                  "chargeLists": [
+                    {
+                      "totalAmt": "0.00",
+                      "inboundAmt": null,
+                      "inboundCur": null,
+                      "outboundAmt": "0.00",
+                      "outboundCur": "USD",
+                      "currency": null,
+                      "bestRank": 1,
+                      "routeForBestRank": null,
+                      "outboundRoute": "DCA-DFW-CHA",
+                      "inboundRoute": null,
+                      "itineraries": [
+                        {
+                          "routePath": null,
+                          "rank": 1,
+                          "legs": [
+                            {
+                              "origin": "DCA",
+                              "destination": "DFW",
+                              "direction": "O",
+                              "operatingFlight": "AA1052",
+                              "marketingFlights": "AA1052,AA5710",
+                              "depDateAndTime": "09MAY20, 13:00",
+                              "arrivalDateAndTime": "09MAY20, 15:25",
+                              "yqyrCharges": null
+                            },
+                            {
+                              "origin": "DFW",
+                              "destination": "CHA",
+                              "direction": "O",
+                              "operatingFlight": "AA5710",
+                              "marketingFlights": "AA1052,AA5710",
+                              "depDateAndTime": "09MAY20, 16:45",
+                              "arrivalDateAndTime": "09MAY20, 19:45",
+                              "yqyrCharges": null
+                            }
+                          ]
+                        }
+                      ],
+                      "taxSubCodeTypeDetailsRecords": [
+                        {
+                          "s1Records": [
+                            {
+                              "leg": "DCA-DFW",
+                              "record": {
+                                "amount": "0.00",
+                                "currency": "USD",
+                                "code": "YRI",
+                                "seqNo": "10200",
+                                "portionOfTravel": false
+                              }
+                            },
+                            {
+                              "leg": "DCA-DFW",
+                              "record": {
+                                "amount": "0.00",
+                                "currency": "USD",
+                                "code": "YQI",
+                                "seqNo": "11001",
+                                "portionOfTravel": false
+                              }
+                            },
+                            {
+                              "leg": "DFW-CHA",
+                              "record": {
+                                "amount": "0.00",
+                                "currency": "USD",
+                                "code": "YRI",
+                                "seqNo": "10200",
+                                "portionOfTravel": false
+                              }
+                            },
+                            {
+                              "leg": "DFW-CHA",
+                              "record": {
+                                "amount": "0.00",
+                                "currency": "USD",
+                                "code": "YQI",
+                                "seqNo": "11001",
+                                "portionOfTravel": false
+                              }
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ],
+                  "catRecord2InfoMap": {
+                    "33 - General Rule Cat_Data": [
+                      {
+                        "record2Carrier": "AA",
+                        "record2Rule": "NRNR",
+                        "record2Tariff": 10,
+                        "record2SequenceNo": 4999900,
+                        "record2CatNo": 33,
+                        "fbrVandorTariff": null,
+                        "record2TariffCode": null,
+                        "effectiveDate": "18Dec14"
+                      }
+                    ],
+                    "12 - Rule Cat_Data": [
+                      {
+                        "record2Carrier": "AA",
+                        "record2Rule": "J11H",
+                        "record2Tariff": 11,
+                        "record2SequenceNo": 4998300,
+                        "record2CatNo": 12,
+                        "fbrVandorTariff": null,
+                        "record2TariffCode": null,
+                        "effectiveDate": "03May18"
+                      }
+                    ],
+                    "9 - General Rule Cat_Data": [
+                      {
+                        "record2Carrier": "AA",
+                        "record2Rule": "0183",
+                        "record2Tariff": 10,
+                        "record2SequenceNo": 7999950,
+                        "record2CatNo": 9,
+                        "fbrVandorTariff": null,
+                        "record2TariffCode": null,
+                        "effectiveDate": "01Jul15"
+                      }
+                    ],
+                    "16 - Rule Cat_Data": [
+                      {
+                        "record2Carrier": "AA",
+                        "record2Rule": "J11H",
+                        "record2Tariff": 11,
+                        "record2SequenceNo": 5002450,
+                        "record2CatNo": 16,
+                        "fbrVandorTariff": null,
+                        "record2TariffCode": null,
+                        "effectiveDate": "01Mar20"
+                      }
+                    ],
+                    "6 - Rule Cat_Data": [
+                      {
+                        "record2Carrier": "AA",
+                        "record2Rule": "J11H",
+                        "record2Tariff": 11,
+                        "record2SequenceNo": 5000000,
+                        "record2CatNo": 6,
+                        "fbrVandorTariff": null,
+                        "record2TariffCode": null,
+                        "effectiveDate": "30Mar16"
+                      }
+                    ],
+                    "12 - General Rule Cat_Data": [
+                      {
+                        "record2Carrier": "AA",
+                        "record2Rule": "0395",
+                        "record2Tariff": 10,
+                        "record2SequenceNo": 4999600,
+                        "record2CatNo": 12,
+                        "fbrVandorTariff": null,
+                        "record2TariffCode": null,
+                        "effectiveDate": "03Oct18"
+                      }
+                    ],
+                    "50 - Rule Cat_Data": [
+                      {
+                        "record2Carrier": "AA",
+                        "record2Rule": "J11H",
+                        "record2Tariff": 11,
+                        "record2SequenceNo": 4999900,
+                        "record2CatNo": 50,
+                        "fbrVandorTariff": null,
+                        "record2TariffCode": null,
+                        "effectiveDate": "15Jun18"
+                      }
+                    ],
+                    "31 - General Rule Cat_Data": [
+                      {
+                        "record2Carrier": "AA",
+                        "record2Rule": "WVER",
+                        "record2Tariff": 10,
+                        "record2SequenceNo": 5005000,
+                        "record2CatNo": 31,
+                        "fbrVandorTariff": null,
+                        "record2TariffCode": null,
+                        "effectiveDate": "06Mar20"
+                      }
+                    ],
+                    "22 - General Rule Cat_Data": [
+                      {
+                        "record2Carrier": "AA",
+                        "record2Rule": "1810",
+                        "record2Tariff": 10,
+                        "record2SequenceNo": 5000000,
+                        "record2CatNo": 22,
+                        "fbrVandorTariff": null,
+                        "record2TariffCode": null,
+                        "effectiveDate": "03Feb16"
+                      }
+                    ],
+                    "15 - Rule Cat_Data": [
+                      {
+                        "record2Carrier": "AA",
+                        "record2Rule": "J11H",
+                        "record2Tariff": 11,
+                        "record2SequenceNo": 5000000,
+                        "record2CatNo": 15,
+                        "fbrVandorTariff": null,
+                        "record2TariffCode": null,
+                        "effectiveDate": "30Mar16"
+                      }
+                    ],
+                    "19 - General Rule Cat_Data": [
+                      {
+                        "record2Carrier": "AA",
+                        "record2Rule": "8000",
+                        "record2Tariff": 10,
+                        "record2SequenceNo": 1000000,
+                        "record2CatNo": 19,
+                        "fbrVandorTariff": null,
+                        "record2TariffCode": null,
+                        "effectiveDate": "23Jul13"
+                      }
+                    ],
+                    "15 - General Rule Cat_Data": [
+                      {
+                        "record2Carrier": "AA",
+                        "record2Rule": "0105",
+                        "record2Tariff": 10,
+                        "record2SequenceNo": 5000000,
+                        "record2CatNo": 15,
+                        "fbrVandorTariff": null,
+                        "record2TariffCode": null,
+                        "effectiveDate": "15Sep16"
+                      }
+                    ],
+                    "5 - Rule Cat_Data": [
+                      {
+                        "record2Carrier": "AA",
+                        "record2Rule": "J11H",
+                        "record2Tariff": 11,
+                        "record2SequenceNo": 4999876,
+                        "record2CatNo": 5,
+                        "fbrVandorTariff": null,
+                        "record2TariffCode": null,
+                        "effectiveDate": "20Apr16"
+                      }
+                    ],
+                    "2 - Rule Cat_Data": [
+                      {
+                        "record2Carrier": "AA",
+                        "record2Rule": "J11H",
+                        "record2Tariff": 11,
+                        "record2SequenceNo": 5060000,
+                        "record2CatNo": 2,
+                        "fbrVandorTariff": null,
+                        "record2TariffCode": null,
+                        "effectiveDate": "30Mar16"
+                      }
+                    ],
+                    "8 - Rule Cat_Data": [
+                      {
+                        "record2Carrier": "AA",
+                        "record2Rule": "J11H",
+                        "record2Tariff": 11,
+                        "record2SequenceNo": 5000000,
+                        "record2CatNo": 8,
+                        "fbrVandorTariff": null,
+                        "record2TariffCode": null,
+                        "effectiveDate": "30Mar16"
+                      }
+                    ],
+                    "7 - Rule Cat_Data": [
+                      {
+                        "record2Carrier": "AA",
+                        "record2Rule": "J11H",
+                        "record2Tariff": 11,
+                        "record2SequenceNo": 5000000,
+                        "record2CatNo": 7,
+                        "fbrVandorTariff": null,
+                        "record2TariffCode": null,
+                        "effectiveDate": "30Mar16"
+                      }
+                    ],
+                    "4 - Rule Cat_Data": [
+                      {
+                        "record2Carrier": "AA",
+                        "record2Rule": "J11H",
+                        "record2Tariff": 11,
+                        "record2SequenceNo": 5010000,
+                        "record2CatNo": 4,
+                        "fbrVandorTariff": null,
+                        "record2TariffCode": null,
+                        "effectiveDate": "14Feb20"
+                      }
+                    ],
+                    "18 - Rule Cat_Data": [
+                      {
+                        "record2Carrier": "AA",
+                        "record2Rule": "J11H",
+                        "record2Tariff": 11,
+                        "record2SequenceNo": 4999800,
+                        "record2CatNo": 18,
+                        "fbrVandorTariff": null,
+                        "record2TariffCode": null,
+                        "effectiveDate": "28Feb19"
+                      }
+                    ],
+                    "33 - Rule Cat_Data": [
+                      {
+                        "record2Carrier": "AA",
+                        "record2Rule": "J11H",
+                        "record2Tariff": 11,
+                        "record2SequenceNo": 5005000,
+                        "record2CatNo": 33,
+                        "fbrVandorTariff": null,
+                        "record2TariffCode": null,
+                        "effectiveDate": "30Mar16"
+                      }
+                    ],
+                    "8 - General Rule Cat_Data": [
+                      {
+                        "record2Carrier": "AA",
+                        "record2Rule": "0180",
+                        "record2Tariff": 10,
+                        "record2SequenceNo": 1004836,
+                        "record2CatNo": 8,
+                        "fbrVandorTariff": null,
+                        "record2TariffCode": null,
+                        "effectiveDate": "14Apr20"
+                      }
+                    ],
+                    "31 - Rule Cat_Data": [
+                      {
+                        "record2Carrier": "AA",
+                        "record2Rule": "J11H",
+                        "record2Tariff": 11,
+                        "record2SequenceNo": 5002450,
+                        "record2CatNo": 31,
+                        "fbrVandorTariff": null,
+                        "record2TariffCode": null,
+                        "effectiveDate": "01Mar20"
+                      }
+                    ],
+                    "16 - General Rule Cat_Data": [
+                      {
+                        "record2Carrier": "AA",
+                        "record2Rule": "WVER",
+                        "record2Tariff": 10,
+                        "record2SequenceNo": 5005000,
+                        "record2CatNo": 16,
+                        "fbrVandorTariff": null,
+                        "record2TariffCode": null,
+                        "effectiveDate": "07Apr20"
+                      }
+                    ],
+                    "11 - Rule Cat_Data": [
+                      {
+                        "record2Carrier": "AA",
+                        "record2Rule": "J11H",
+                        "record2Tariff": 11,
+                        "record2SequenceNo": 5008750,
+                        "record2CatNo": 11,
+                        "fbrVandorTariff": null,
+                        "record2TariffCode": null,
+                        "effectiveDate": "30Mar16"
+                      }
+                    ],
+                    "18 - General Rule Cat_Data": [
+                      {
+                        "record2Carrier": "AA",
+                        "record2Rule": "NRNR",
+                        "record2Tariff": 10,
+                        "record2SequenceNo": 5000000,
+                        "record2CatNo": 18,
+                        "fbrVandorTariff": null,
+                        "record2TariffCode": null,
+                        "effectiveDate": "18Dec14"
+                      }
+                    ]
+                  },
+                  "fntRecord2InfoMap": {
+                    "15 - Footnote Cat_Data": [
+                      {
+                        "record2Carrier": null,
+                        "record2Footnote": "2D",
+                        "record2Tariff": 0,
+                        "record2SequenceNo": 100000,
+                        "record2CatNo": 15,
+                        "fbrVandorTariff": null,
+                        "record2TariffCode": null,
+                        "effectiveDate": "30Apr20"
+                      }
+                    ],
+                    "14 - Footnote Cat_Data": [
+                      {
+                        "record2Carrier": null,
+                        "record2Footnote": "2D",
+                        "record2Tariff": 0,
+                        "record2SequenceNo": 100000,
+                        "record2CatNo": 14,
+                        "fbrVandorTariff": null,
+                        "record2TariffCode": null,
+                        "effectiveDate": "30Apr20"
+                      }
+                    ]
+                  },
+                  "oaFare": null,
+                  "lastModule": "SCOPE",
+                  "bpRequestId": 0,
+                  "elementId": 0,
+                  "piActionCode": "",
+                  "groupId": null,
+                  "marketAttributes": null,
+                  "footNoteKey": null,
+                  "routingNumberKey": null,
+                  "currencyKey": null,
+                  "rowIndex": 0,
+                  "sortKey": "WAS-CHA-AA-GVAHKSI1-USD-2D-306-1-0-1",
+                  "previousAmount": null,
+                  "previousAmountToCompare": 0,
+                  "previousFootNote": null,
+                  "previousRoutingNumber": null,
+                  "previousCurrency": null,
+                  "constructedBaseFare": null,
+                  "inAddOn": null,
+                  "outAddOn": null,
+                  "distributedId": null,
+                  "status": null,
+                  "domestic": true
+                }
+              ],
+              "pageable": {
+                "sort": {
+                  "sorted": true,
+                  "unsorted": false,
+                  "empty": false
+                },
+                "offset": 0,
+                "pageNumber": 0,
+                "pageSize": 50,
+                "paged": true,
+                "unpaged": false
+              },
+              "totalPages": 2,
+              "totalElements": 51,
+              "last": false,
+              "size": 50,
+              "number": 0,
+              "numberOfElements": 50,
+              "sort": {
+                "sorted": true,
+                "unsorted": false,
+                "empty": false
+              },
+              "first": true,
+              "empty": false
+            },
+            "totalFaresCount": 3
+          },
+          "message": {
+            "level": "INFO"
+          }
+        }
+      }
+    ]
+  }
+]

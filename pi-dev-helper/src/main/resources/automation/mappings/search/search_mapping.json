@@ -1,0 +1,11 @@
+[
+  {
+    "testId": "TEST_SEARCH_1",
+    "queryId": "1",
+    "mapping": {
+      "search": "1",
+      "status": "1",
+      "page": "1"
+    }
+  }
+]

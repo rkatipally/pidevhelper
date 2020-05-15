@@ -1,0 +1,26 @@
+[
+  {
+    "name": "execute",
+    "baseUrl": "/atpapps/pistrategyskipper/api/v1/blueprint/execute",
+    "combinations": [
+      {
+        "id": "1-co",
+        "urlStr": "",
+        "request": {"userId":"ATP3RXK", "hostCarrier":"AA","modules":[{"type":"condition","name":"1 - Condition","rows":[{"match":{"footNote":"84"},"apply":{"actionCode":"C","amount":"=+100"}}]}],"queryId":"1"},
+        "response": {"data":{"_id":"1-co","searchType":"SIMPLE_BY_FARE","status":"PROCESSING","domesticSubsTime":null,"internationalSubsTime":null,"totalFareCount":3,"totalRequestCount":0,"completedRequestCount":0},"message":{"level":"INFO"}}
+      },
+      {
+        "id": "1-co",
+        "urlStr": "",
+        "request": {"userId":"ATP3RXK","queryId":"1","hostCarrier":"AA","modules":[{"type":"condition","name":"1 - Condition","rows":[{"match":{},"apply":{"actionCode":"C","routingNumber":"0000"}}]},{"type":"fareCleanup","removeDuplicates":true,"rows":[{}]},{"type":"actionResolve","queryId":"1","userId":"ATP3RXK","hostCarrier":"AA","tariff":true,"countryPair":false,"market":true,"routing":false,"footnote":false,"fareClassPositions":[],"cabinTypes":"Y,W,C,F","ptc":"","rule":"","includeCancel":false}]},
+        "response": {"data":{"_id":"1-co","searchType":"SIMPLE_BY_FARE","status":"PROCESSING","domesticSubsTime":null,"internationalSubsTime":null,"totalFareCount":3,"totalRequestCount":0,"completedRequestCount":0},"message":{"level":"INFO"}}
+      },
+      {
+        "id": "1-co",
+        "urlStr": "",
+        "request": {"userId":"ATP3RXK","queryId":"1","hostCarrier":"AA","modules":[{"type":"condition","name":"1 - Condition","rows":[{"match":{},"apply":{"actionCode":"C","routingNumber":"0000"}}]}]},
+        "response": {"data":{"_id":"1-co","searchType":"SIMPLE_BY_FARE","status":"PROCESSING","domesticSubsTime":null,"internationalSubsTime":null,"totalFareCount":3,"totalRequestCount":0,"completedRequestCount":0},"message":{"level":"INFO"}}
+      }
+    ]
+  }
+]

@@ -16,7 +16,7 @@
 
     <properties>
         <java.version>1.8</java.version>
-        <common-lang3.version>3.9</common-lang3.version>
+        <common-lang3.version>3.18.0</common-lang3.version>
         <jackson.version>2.11.0</jackson.version>
         <maven-surefire-plugin.version>2.19</maven-surefire-plugin.version>
         <version.maven.clover>3.2.2</version.maven.clover>
